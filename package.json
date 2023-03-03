@@ -1,0 +1,47 @@
+{
+  "name": "vuebaseadmin",
+  "version": "0.1.0",
+  "author": "JessieLiu",
+  "keywords": [
+    "jc-cli",
+    "jc",
+    "scaffold"
+  ],
+  "private": true,
+  "bin": {
+    "jc": "bin/jc",
+    "jc-add": "bin/jc-add",
+    "jc-delete": "bin/jc-delete",
+    "jc-list": "bin/jc-list",
+    "jc-init": "bin/jc-init"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
